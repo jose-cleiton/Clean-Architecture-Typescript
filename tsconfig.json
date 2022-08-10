@@ -1,0 +1,23 @@
+// ./tsconfig.json
+{
+  
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "module": "commonjs",   
+    "outDir": "./public",
+    "paths": {
+      "@/*":["*"],
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "preserveConstEnums": true,
+    
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+
+  
+}
